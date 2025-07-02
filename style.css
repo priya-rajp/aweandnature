@@ -1,110 +1,82 @@
-/* Reset and base styles */
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
   font-family: 'Georgia', serif;
-  background-color: #f8f5f0;
-  color: #2e2e1f;
+  background: linear-gradient(to bottom right, #f5f5f0, #e9f5ea);
+  color: #2f3e2e;
   line-height: 1.6;
-  padding: 2rem;
 }
 
 .container {
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
-  background-color: #fffdf7;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(85, 85, 85, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  background-color: #fffdfb;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   text-align: center;
-  border: 1px solid #e6e3dc;
 }
 
-/* Typography */
 h1 {
   font-size: 2.8rem;
-  color: #3b463b;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-
-h2 {
-  font-size: 1.5rem;
-  color: #5c6655;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-  color: #5c6655;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  font-size: 1.05rem;
-  color: #4f4f3f;
+  color: #344e41;
   margin-bottom: 1.5rem;
 }
 
 .intro {
-  font-style: italic;
-  color: #5a5a40;
+  font-size: 1.15rem;
+  color: #4f4f3f;
+  margin-bottom: 2rem;
 }
 
-/* Card section */
 .card {
-  background-color: #f1ede4;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  margin-bottom: 2rem;
+  background-color: #f3f7f4;
+  border: 1px solid #d7e5db;
+  padding: 2rem;
+  border-radius: 16px;
+  margin-bottom: 2.5rem;
   text-align: left;
-  border-left: 4px solid #7c9473;
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  color: #3a5743;
+  margin-bottom: 1rem;
 }
 
 .card ul {
-  list-style: square;
-  padding-left: 1.5rem;
-  color: #403f2f;
-}
-
-.card li {
-  margin-bottom: 0.5rem;
-}
-
-/* Button */
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #6c8c6b;
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 30px;
-  transition: all 0.3s ease;
-  font-weight: 500;
-}
-
-.btn:hover {
-  background-color: #4e694d;
-}
-
-/* Contact section */
-.contact {
-  margin-top: 2rem;
-  font-size: 0.95rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
   color: #3e3e2e;
 }
 
-.contact a {
-  color: #5c7760;
-  text-decoration: underline;
-  transition: color 0.3s ease;
+.join-btn {
+  display: inline-block;
+  background-color: #6c8c6b;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
 }
 
-.contact a:hover {
-  color: #2d4231;
+.join-btn:hover {
+  background-color: #4e694d;
+}
+
+.contact {
+  margin-top: 3rem;
+}
+
+.contact h3 {
+  font-size: 1.3rem;
+  color: #3f573f;
+  margin-bottom: 0.5rem;
+}
+
+.contact a {
+  color: #365538;
+  text-decoration: underline;
 }
