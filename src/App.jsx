@@ -39,7 +39,7 @@ export default function AweNatureStudy() {
           animate={{ opacity: 1, y: 0 }} 
           transition={{ delay: 0.4 }}
         >
-          <a href="https://your-survey-link.com" target="_blank" rel="noopener">
+          <a href="https://goldpsych.eu.qualtrics.com/jfe/form/SV_7UQOkT533jNgPpI" target="_blank" rel="noopener">
             <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 text-lg rounded-full">
               Join the Study Now
             </Button>
