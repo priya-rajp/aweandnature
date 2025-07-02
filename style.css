@@ -122,4 +122,29 @@ html {
   section {
     padding: 1.5rem 1.5rem;
   }
-}g
+}
+.join-study-section {
+  text-align: center;
+}
+
+.btn-join {
+  display: inline-block;
+  background-color: #009688;
+  color: white;
+  font-weight: 700;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 150, 136, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn-join:hover,
+.btn-join:focus {
+  background-color: #007961;
+  box-shadow: 0 6px 18px rgba(0, 121, 97, 0.6);
+  outline: none;
+}
+
