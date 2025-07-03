@@ -153,3 +153,46 @@ html {
   box-shadow: 0 6px 18px rgba(0, 121, 97, 0.6);
   outline: none;
 }
+.awe-section {
+  background: #f4f9f4;
+  padding: 60px 20px;
+  font-family: 'Georgia', serif;
+}
+
+.awe-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.awe-section h2 {
+  color: #2e7d32;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.awe-section p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.awe-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.awe-section li {
+  margin-bottom: 10px;
+}
+
+.awe-quote {
+  background: #e0f2f1;
+  padding: 15px 20px;
+  border-left: 5px solid #009688;
+  font-style: italic;
+  color: #004d40;
+}
+
